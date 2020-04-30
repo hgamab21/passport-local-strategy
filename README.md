@@ -20,6 +20,8 @@ As a TA for a web development course, students of mine wanted an example of a ba
 
 ## Installation
 
+This app uses a MySQL database, you can download it here: (https://www.mysql.com/downloads/)
+
 Use the Node Package Manager [npm](https://www.npmjs.com/) first to install all necessary dependencies.
 
 ```bash
@@ -30,4 +32,21 @@ NOTE: This also uses the module 'mysql2' as a dependency, you will need to insta
 
 ```bash
 npm i mysql2
+```
+Finally, for proper usage please make sure your MySQL credentials are included. To do this, put your credentials in app/config/config.json where indicated:
+
+```json
+"development": {
+
+        "username": "root" OR "your_username",
+
+        "password": null OR "your_database_password",
+
+        "database": "sequelize_passport",
+
+        "host": "127.0.0.1",
+
+        "dialect": "mysql"
+
+    },
 ```

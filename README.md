@@ -38,9 +38,9 @@ Finally, for proper usage please make sure your MySQL credentials are included. 
 ```json
 "development": {
 
-        "username": "root" OR "your_username",
+        "username": "root" /*OR "your_username"*/,
 
-        "password": null OR "your_database_password",
+        "password": null /*OR "your_database_password"*/,
 
         "database": "sequelize_passport",
 

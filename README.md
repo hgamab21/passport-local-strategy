@@ -8,15 +8,15 @@ As a TA for a web development course, students of mine wanted an example of a ba
 
 ### Features
 
-*Input validation
-*Local Strategy authentication
+* Input validation
+* Local Strategy authentication
 
 ### Technologies
 
-*Node
-*MySQL (via Sequelize)
-*Express
-*Passport.js (http://www.passportjs.org/)
+* Node
+* MySQL (via Sequelize)
+* Express
+* Passport.js (http://www.passportjs.org/)
 
 ## Installation
 
